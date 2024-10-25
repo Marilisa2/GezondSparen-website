@@ -1,0 +1,331 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fonts-style*/
+p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/*Font-size*/
+h1{
+    font-size: 56px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+/*navigation bar*/
+header img{
+    width: 8%;
+    height: auto; 
+    margin: 10px;  
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 0;
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none; /*Haalt streep onder link weg*/
+    color: inherit;
+    padding: 12px 15px;
+}
+
+/*nav color*/
+nav a:hover{
+    background-color: #E2E2E2;  
+}
+
+.contactButton{
+    background-color: #00766A;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 12px 40px;
+    margin-left: 40px;
+}
+
+.line-nav{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #E2E2E2;
+}
+
+/*every line*/
+.line{
+    display: block;
+    width: 90%;
+    height: 2px;
+    background-color: #E2E2E2;
+    margin: 30px auto;
+}
+
+#Line
+{
+    width: 100%;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 50%;
+}
+/*font sizes*/
+h1{
+    font-size: 56px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+ font-size: 32px;
+}
+
+/*footer*/
+footer img{
+    width: 8%;
+}
+
+footer ul li{
+    display: inline;
+}
+
+/*Home*/
+#section1H {
+    position: relative;
+    text-align: center;
+}
+#section1H img{
+    width: 100%;
+    height: 700px;
+    opacity: 0.50;
+}
+#section1H article{
+    position: absolute;
+    top: 34%;
+    left: 34%;
+    max-width: 562px;
+}
+#section1H article h1{
+    margin-bottom: 35px;
+}
+#section1H article p{
+    margin-bottom: 2cqmin;
+}
+
+
+#section3H {
+    display: block;
+    background-color: #FFD2C2;
+    padding: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+#section3H img{
+    width: 484px;
+    height: auto;
+}
+#section3H article{
+    width: 484px;
+    display: flex;
+    justify-self: flex-end;
+}
+
+/*Producten*/
+#section1P p{
+    padding-bottom:20px;
+    margin-left: 292px;
+    max-width: 865px;
+    text-align: center;
+}
+#section1P h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section1P{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section1P article{
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+
+#section2P {
+    position: relative;
+    text-align: center;
+}
+#section2P img{
+    width: 100%;
+    height: 429px;
+    opacity: 0.50;
+}
+#section2P article{
+    position:absolute;
+    bottom: 50%;
+    left: 47%;
+
+}
+
+#section4P {
+    position: relative;
+    text-align: center;
+}
+#section4P img{
+    width: 100%;
+    height: 429px;
+    opacity: 0.50;
+}
+#section4P article{
+    position:absolute;
+    bottom: 50%;
+    left: 47%;
+}
+
+
+#section6P p{
+    padding-bottom:20px;
+    margin-left: 292px;
+    max-width: 865px;
+}
+#section6P h3{
+    padding-bottom: 25px;
+    margin-left: 292px;
+}
+#section6P{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section6P article{
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+
+/*FAQ*/
+#section1V img{
+    position: relative;
+    width: 80%;
+    padding-left: 250px;
+}
+
+#H1vv{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+    background-color: #FFD2C2;
+    border-style: solid;
+    border-color: #CBCBCB;
+}
+
+#FAQ{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 49px;
+    padding-bottom: 1000px;
+    background-color: #FFF0EB;
+    border-style: solid;
+    border-color: #CBCBCB;
+
+}
+#FAQ h2 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+#FAQ p{
+    margin-left: 60px;
+    max-width: 1063px;
+}
+
+#section3V p{
+    padding-bottom:20px;
+    margin-left: 292px;
+    max-width: 865px;
+}
+#section3V h3{
+    padding-bottom: 25px;
+    margin-left: 292px;
+}
+#section3V{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section3V article{
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+
+
+/*Folder*/
+figure{
+    display: flex;
+    
+}
+
+#folderAH{
+    width: 243px;
+    height: 542px;
+    margin: 34px;
+}
+#folderL{
+    width:345px;
+    height: 435px;
+    margin: 34px;
+}
+#folderJ{
+    width: 332px;
+    height: 435px;
+    margin: 34px;
+}
+#folderA{
+    width: 300px;
+    height: 524px;
+
+}
+
+/*Nieuwsbrief*/
+
+/*Contact*/
